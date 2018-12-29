@@ -19,12 +19,29 @@
             body {
                 background-color: #fefefe;
             }
+            nav {
+                position: absolute;
+                top:0;
+                left:0;
+                background-image: linear-gradient(to bottom, rgba(0,255,0,0.2), rgba(0,52,0,0));
+            }
+            nav > a > span  {
+                color: white;
+                font-size:1.5rem;
+                font-weight: bold;
+            }
+            a.nav-link {
+                color: white !important;
+            }
+            a.nav-link:hover {
+                color: #cecece !important;
+            }
         </style>
     </head>
     <body>
         <!-- NAVBAR -->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="/">
                     <span>TJ's Glass</span>
                 </a>
