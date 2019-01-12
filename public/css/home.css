@@ -63,7 +63,14 @@
 }
 
 #about {
-    height: 50vh;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about-fc {
+    display: flex;
+    justify-content: center;
 }
 
 a.carousel-control-prev, a.carousel-control-next {
