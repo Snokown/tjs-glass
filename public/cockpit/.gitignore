@@ -15,8 +15,6 @@ package-lock.json
 /lib/**/\.travis.yml
 /lib/**/phpunit*
 /lib/**/example/*
-/storage/*.*
-/storage/*/*
 /config/*
 /tests/*
 /node_modules
