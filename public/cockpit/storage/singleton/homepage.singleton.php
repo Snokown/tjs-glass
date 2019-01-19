@@ -116,11 +116,29 @@
       array (
       ),
     ),
+    6 => 
+    array (
+      'name' => 'services_list',
+      'label' => 'Services List',
+      'type' => 'wysiwyg',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => false,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
   ),
   'template' => '',
   'data' => NULL,
   '_created' => 1547349223,
-  '_modified' => 1547349495,
+  '_modified' => 1547865959,
   'description' => '',
   'acl' => 
   array (
