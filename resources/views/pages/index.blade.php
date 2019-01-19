@@ -1,18 +1,14 @@
-<?php
-
-/* Use this for temporary Document Root */
-
-// CAM:
-// $doc_root = "/tjs-glass/public";
-
-// FRANKIE
-$doc_root = "";
-
-?>
-
 @extends('layouts.app')
 
+@section('assets')
+<link rel="stylesheet" href="../css/home.css">
+@endsection
+
 @section('content')
+<section>
+    
+</section>
+<section>
     <div class="row mx-5">
         <div class="col-md-6 p-5">
             {!!$result->about_headline!!}
@@ -32,13 +28,13 @@ $doc_root = "";
                 {!!$result->location!!}
             </div>
         </div>
-        <div class="col-md-6 p-5">
+        <div class="col-md-6 p-5 image-container">
             <div>
-                <img class="img-fluid" src="{{$doc_root.$result->about_image->path}}" alt="Flamingo">
+                <img class="img-fluid" src="{{$result->about_image->path}}" alt="Flamingo">
             </div>
         </div>
     </div>
-    
+</section>
 
 
 @endsection
