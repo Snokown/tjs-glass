@@ -10,7 +10,7 @@
 </section>
 <section>
     <div class="row mx-5">
-        <div class="col-md-6 p-5">
+        <div class="col-md-6 p-5 d-flex flex-column justify-content-between">
             {!!$result->about_headline!!}
             {!!$result->about_us_paragraph!!}
             <div>

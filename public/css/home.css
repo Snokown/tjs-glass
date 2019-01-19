@@ -3,3 +3,33 @@
     flex-direction: column;
     align-items: flex-end;
 }
+
+.img-bg-container {
+    background-color:pink;
+    height: 350px;
+}
+
+#cta-row:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(38,38,38,.8);
+    position: absolute;
+    z-index: 1;
+}
+
+.overlay-btn {
+    z-index: 2;
+}
+
+.overlay-text {
+    z-index: 2;
+    font-size: 2rem;
+    color: orange;
+    font-weight: bold;
+}
+
+.mx-10rem {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
