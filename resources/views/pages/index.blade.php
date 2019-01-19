@@ -1,3 +1,15 @@
+<?php
+
+/* Use this for temporary Document Root */
+
+// CAM:
+// $doc_root = "/tjs-glass/public";
+
+// FRANKIE
+$doc_root = "";
+
+?>
+
 @extends('layouts.app')
 
 @section('content')
@@ -22,7 +34,7 @@
         </div>
         <div class="col-md-6 p-5">
             <div>
-                <img class="img-fluid" src="/tjs-glass/public{{$result->about_image->path}}" alt="Flamingo">
+                <img class="img-fluid" src="{{$doc_root.$result->about_image->path}}" alt="Flamingo">
             </div>
         </div>
     </div>
